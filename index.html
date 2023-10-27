@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Coverter</title>
+    <link rel="stylesheet" href="style.css">        
+</head>
+<body>
+    <!-- <img src="thermo1.jpg" class="thermo1"> -->
+    <div class="temp_convert">
+        <h1>temperture converter</h1>
+        <h3>Result (Celcius)</h3>
+        <div class="result" id="result"></div>
+        <div class="convert" id="convert">
+        <div class="degree">
+        degree  <input type="number" id="degree">
+        </div>
+        <div class="temp-field" >
+        type  <select name="temperatures" id="temp-type" autocomplete="on">
+              <option  value="fahrenheit">fahrenheit</option>
+              <option  value="kelvin">kelvin</option>
+            </select>
+          </div>
+        </div>
+        <div class="btn" id="btn">
+            <button>convert</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

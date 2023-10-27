@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans&family=Playpen+Sans:wght@300&family=Quicksand&family=Saira&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Saira', sans-serif;
+}
+body{
+    background-color: rgb(95, 6, 230);
+    display: flex;
+    justify-content:center;
+    min-height: 100vh;
+    align-items: center;
+}
+.thermo1{
+    height: 50px;
+    width: 50px;
+}
+.temp_convert{
+    background-color: rgb(248, 241, 241);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 50%;
+}
+.convert{
+   display:flex;
+   justify-content: space-around;
+}
+.btn{
+    padding: 10px;
+    margin:2% 0 2% 38%;
+}
+.btn button{
+    width:40%;
+    background-color: rgb(95, 6, 230);
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    /* padding: 10px; */
+}
+.result{
+    border-bottom:2px solid rgb(15, 15, 15);
+    width: 30%;
+    padding: 10px;
+    margin: 2% 0 4% 35%;
+    font-size: 20px;
+    text-align: center;
+    color:purple;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: purple;
+}
+h3{
+    text-align: center;
+    padding: 8px;
+    text-transform: capitalize;
+}
+.degree input{
+    font-size: 16px;
+    text-align: center;
+    width: 80px;
+}
+.degree{
+    text-transform: uppercase;
+    color: rgb(81, 0, 92);
+    /* font-weight: bold; */
+}
+.temp-field{
+    /* font-weight: bold; */
+    color: purple;
+    text-transform: uppercase;
+}
