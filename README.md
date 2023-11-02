@@ -1,4 +1,6 @@
 # Temperature_converter
 
-https://user-images.githubusercontent.com/134073829/279225847-f5bfe3c3-c693-452d-8980-9c9b98a800db.png
+
+![tempc](https://github.com/coder-2k4/Temperature_converter/assets/134073829/9453cdcb-b49e-43fc-8ed4-a5374bd802ee)
+
 
